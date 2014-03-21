@@ -9,5 +9,9 @@
  bait,
  result = null;
  
- 
+/*
+ * TO DO:
+ * 		replace ® with &reg;
+ *				— with &mdash;
+ */
 		
