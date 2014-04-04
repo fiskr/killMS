@@ -1,13 +1,24 @@
 <html>
 <head>
+<script type="text/javascript">
+    document.write("\<script src='http://code.jquery.com/jquery-latest.min.js' type='text/javascript'>\<\/script>");
+</script>
 <title>Get rid of all those unwanted MS character</title>
-<
 </head>
 <body>
 <script type="text/javascript" src="killMS.js"></script>
-<form>
-<input type="text"/>
-<button type="submit">Kill them all</button>
-</form>
+<script type="text/javascript">
+$(function (){
+	$('#submit').click(function(){
+		var bait = $('#input').html();
+		alert(bait);
+		var result = dog.hunt(bait);
+		//$('#input').html(dog.hunt(bait));
+	});
+	
+});</script>
+<textarea id="input">Enter here</textarea>
+<button id="submit">Kill them all</button>
+
 </body>
 </html>
